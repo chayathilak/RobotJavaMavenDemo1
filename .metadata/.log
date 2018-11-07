@@ -3904,3 +3904,15 @@ java.lang.Exception: Resource '/javarobot/src/test/robotframework/acceptance/Tes
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-11-07 11:19:52.116
+!MESSAGE No repository found at http://sourceforge.net/projects/robotide/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-11-07 11:20:31.537
+!MESSAGE No repository found at jar:file:/C:/Users/Gihan/Downloads/Curl/content.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-11-07 11:20:37.953
+!MESSAGE No repository found at https://github.com/nokia/RED/releases/latest.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-11-07 11:20:41.963
+!MESSAGE No repository found at jar:file:/C:/Users/Gihan/Downloads/Curl/com.nitorcreations.robotframework.eclipseide_1.4.0.jar!/.

@@ -1,8 +1,0 @@
-*** Settings ***
-Documentation  A resource file containing the application specific keywords
-Library		Selenium2Library
-
-*** Test Cases ***
-Check out joe colantonio dot com
-	Open Browser  https://www.joecolantonio.com  ff
-	Close Browser
