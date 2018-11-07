@@ -1,0 +1,20 @@
+*** Settings ***
+Library  Selenium2Library
+Documentation
+...    Registration Test Case.
+
+
+***Variables***
+${Browser}  Chrome
+${URL}  http://gajaba-1609168510.us-east-1.elb.amazonaws.com/inet/webux/login.html
+
+ 
+*** Test Cases ***
+TC_001 Browser Start and Close
+	Open Browser  ${URL}  ${Browser} 
+	Input Text  id=username  demo
+	Input Password  id=password  ust123
+	Click Button  xpath=//*[@id="login-window"]/form/div[1]/button
+	Close Browser
+	
+ 

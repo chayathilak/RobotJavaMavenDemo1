@@ -1,0 +1,13 @@
+*** Settings ***
+Library  SeleniumLibrary
+
+
+***Variables***
+${Browser}  Chrome
+${URL}  https://accounts.google.com
+
+
+*** Test Cases ***
+Check out joe colantonio dot com
+	Open Browser  https://accounts.google.com  gc
+	Close Browser

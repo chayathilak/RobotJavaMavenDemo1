@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0 (Jython 2.7.0 on java1.8.0_181)" generated="20181106 16:26:21.895">
+<suite source="C:\Users\Gihan\eclipse-test5\javarobot\src\test\robotframework\acceptance" name="Acceptance" id="s1">
+<suite source="C:\Users\Gihan\eclipse-test5\javarobot\src\test\robotframework\acceptance\Test_Case_1.robot" name="Test Case 1" id="s1-s1">
+<test name="TC_001 Browser Start and Close" id="s1-s1-t1">
+<kw library="Selenium2Library" name="Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg level="INFO" timestamp="20181106 16:26:23.640">browserName: Chrome</msg>
+<msg level="INFO" timestamp="20181106 16:26:23.644">Opening browser 'Chrome' to base url 'http://gajaba-1609168510.us-east-1.elb.amazonaws.com/inet/webux/login.html'</msg>
+<msg level="INFO" timestamp="20181106 16:26:32.104">Starting ChromeDriver 2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed) on port 12602
+Only local connections are allowed.</msg>
+<status endtime="20181106 16:26:32.108" starttime="20181106 16:26:23.624" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Input Text">
+<doc>Types the given &lt;b&gt;text&lt;/b&gt; into the text field identified by</doc>
+<arguments>
+<arg>id=username</arg>
+<arg>demo</arg>
+</arguments>
+<msg level="INFO" timestamp="20181106 16:26:32.120">Typing text 'demo' into text field 'id=username'</msg>
+<status endtime="20181106 16:26:32.311" starttime="20181106 16:26:32.110" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Input Password">
+<doc>Types the given &lt;b&gt;text&lt;/b&gt; into the password field identified by</doc>
+<arguments>
+<arg>id=password</arg>
+<arg>ust123</arg>
+</arguments>
+<msg level="INFO" timestamp="20181106 16:26:32.323">Typing password into text field 'id=password'</msg>
+<status endtime="20181106 16:26:32.543" starttime="20181106 16:26:32.313" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Click Button">
+<doc>Click on the button identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>xpath=//*[@id="login-window"]/form/div[1]/button</arg>
+</arguments>
+<msg level="INFO" timestamp="20181106 16:26:32.553">Clicking button 'xpath=//*[@id="login-window"]/form/div[1]/button'.</msg>
+<status endtime="20181106 16:26:32.700" starttime="20181106 16:26:32.545" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Close Browser">
+<doc>Closes the current browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Open Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<status endtime="20181106 16:26:34.579" starttime="20181106 16:26:32.702" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20181106 16:26:34.581" starttime="20181106 16:26:23.616" status="PASS"></status>
+</test>
+<doc>Registration Test Case.</doc>
+<status endtime="20181106 16:26:34.594" starttime="20181106 16:26:22.277" status="PASS"></status>
+</suite>
+<status endtime="20181106 16:26:34.695" starttime="20181106 16:26:21.918" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" name="Acceptance" id="s1">Acceptance</stat>
+<stat pass="1" fail="0" name="Test Case 1" id="s1-s1">Acceptance.Test Case 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.5.2 on win32)" generated="20181105 15:05:42.865">
+<suite source="C:\Users\Gihan\eclipse-test5" name="Eclipse-Test5" id="s1">
+<suite source="C:\Users\Gihan\eclipse-test5\javarobot" name="Javarobot" id="s1-s1">
+<suite source="C:\Users\Gihan\eclipse-test5\javarobot\src" name="Src" id="s1-s1-s1">
+<suite source="C:\Users\Gihan\eclipse-test5\javarobot\src\test" name="Test" id="s1-s1-s1-s1">
+<suite source="C:\Users\Gihan\eclipse-test5\javarobot\src\test\robotframework" name="Robotframework" id="s1-s1-s1-s1-s1">
+<suite source="C:\Users\Gihan\eclipse-test5\javarobot\src\test\robotframework\acceptance" name="Acceptance" id="s1-s1-s1-s1-s1-s1">
+<suite source="C:\Users\Gihan\eclipse-test5\javarobot\src\test\robotframework\acceptance\Test_Case_1.robot" name="Test Case 1" id="s1-s1-s1-s1-s1-s1-s1">
+<test name="TC_001 Browser Start and Close" id="s1-s1-s1-s1-s1-s1-s1-t1">
+<kw name="Open Browser">
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20181105 15:05:43.305" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20181105 15:05:43.304" endtime="20181105 15:05:43.305"></status>
+</kw>
+<status status="FAIL" starttime="20181105 15:05:43.299" critical="yes" endtime="20181105 15:05:43.306">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20181105 15:05:43.284" endtime="20181105 15:05:43.308"></status>
+</suite>
+<status status="FAIL" starttime="20181105 15:05:43.278" endtime="20181105 15:05:43.311"></status>
+</suite>
+<status status="FAIL" starttime="20181105 15:05:43.271" endtime="20181105 15:05:43.314"></status>
+</suite>
+<status status="FAIL" starttime="20181105 15:05:43.265" endtime="20181105 15:05:43.317"></status>
+</suite>
+<status status="FAIL" starttime="20181105 15:05:43.260" endtime="20181105 15:05:43.320"></status>
+</suite>
+<status status="FAIL" starttime="20181105 15:05:43.254" endtime="20181105 15:05:43.322"></status>
+</suite>
+<status status="FAIL" starttime="20181105 15:05:43.200" endtime="20181105 15:05:43.324"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" name="Eclipse-Test5" id="s1" pass="0">Eclipse-Test5</stat>
+<stat fail="1" name="Javarobot" id="s1-s1" pass="0">Eclipse-Test5.Javarobot</stat>
+<stat fail="1" name="Src" id="s1-s1-s1" pass="0">Eclipse-Test5.Javarobot.Src</stat>
+<stat fail="1" name="Test" id="s1-s1-s1-s1" pass="0">Eclipse-Test5.Javarobot.Src.Test</stat>
+<stat fail="1" name="Robotframework" id="s1-s1-s1-s1-s1" pass="0">Eclipse-Test5.Javarobot.Src.Test.Robotframework</stat>
+<stat fail="1" name="Acceptance" id="s1-s1-s1-s1-s1-s1" pass="0">Eclipse-Test5.Javarobot.Src.Test.Robotframework.Acceptance</stat>
+<stat fail="1" name="Test Case 1" id="s1-s1-s1-s1-s1-s1-s1" pass="0">Eclipse-Test5.Javarobot.Src.Test.Robotframework.Acceptance.Test Case 1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181105 15:05:43.297" level="ERROR">Error in file 'C:\Users\Gihan\eclipse-test5\javarobot\src\test\robotframework\acceptance\Test_Case_1.robot': Importing test library 'Selenium2Library' failed: ImportError: No module named 'Selenium2Library'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Gihan\AppData\Local\Programs\Python\Python35-32\python35.zip
+  C:\Users\Gihan\AppData\Local\Programs\Python\Python35-32\DLLs
+  C:\Users\Gihan\AppData\Local\Programs\Python\Python35-32\lib
+  C:\Users\Gihan\AppData\Local\Programs\Python\Python35-32
+  C:\Users\Gihan\AppData\Local\Programs\Python\Python35-32\lib\site-packages
+  C:\Users\Gihan\AppData\Local\Programs\Python\Python35-32\lib\site-packages\win32
+  C:\Users\Gihan\AppData\Local\Programs\Python\Python35-32\lib\site-packages\win32\lib
+  C:\Users\Gihan\AppData\Local\Programs\Python\Python35-32\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>

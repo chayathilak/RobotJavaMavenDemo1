@@ -1,0 +1,48 @@
+*** Settings ***
+Library  Selenium2Library
+Documentation
+...    Registration Test Case.
+
+
+***Variables***
+${Browser}  Chrome
+${URL}  http://gajaba-1609168510.us-east-1.elb.amazonaws.com/inet/webux/login.html
+
+ 
+*** Test Cases ***
+TC_001 Browser Start and Close
+	Open Browser  ${URL}  ${Browser} 
+	Input Text  id=username  demo
+	Input Password  id=password  ust123
+	Click Button  xpath=//*[@id="login-window"]/form/div[1]/button
+	Close Browser
+	
+Only upper limit
+    [Documentation]    Loops over values from 0 to 9
+    :FOR    ${index}    IN RANGE    10
+    \    Log    ${index}
+
+Start and end
+    [Documentation]  Loops over values from 1 to 10
+    :FOR    ${index}    IN RANGE    1    11
+    \    Log    ${index}
+
+Also step given
+    [Documentation]  Loops over values 5, 15, and 25
+    :FOR    ${index}    IN RANGE    5    26    10
+    \    Log    ${index}
+
+Negative step
+    [Documentation]  Loops over values 13, 3, and -7
+    :FOR    ${index}    IN RANGE    13    -13    -10
+    \    Log    ${index}
+
+Arithmetics
+    [Documentation]  Arithmetics with variable
+    :FOR    ${index}    IN RANGE    ${var}+1
+    \    Log    ${index}
+
+Float parameters
+    [Documentation]  Loops over values 3.14, 4.34, and 5.54
+    :FOR    ${index}    IN RANGE    3.14    6.09    1.2
+    \    Log    ${index}

@@ -1,0 +1,13 @@
+*** Settings ***
+Library  SeleniumLibrary
+
+
+***Variables***
+${Browser}  Chrome
+${URL}  https://accounts.google.com
+
+
+*** Test Cases ***
+TC_001 Browser Start and Close
+	Open Browser  ${Browser}  ${URL}
+	

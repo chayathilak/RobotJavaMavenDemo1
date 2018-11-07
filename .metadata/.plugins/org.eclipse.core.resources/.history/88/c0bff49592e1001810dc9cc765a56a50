@@ -1,0 +1,42 @@
+*** Settings ***
+Library  Selenium2Library
+Documentation
+...    Registration Test Case.
+
+
+***Variables***
+${Browser}  Chrome
+${URL}  http://gajaba-1609168510.us-east-1.elb.amazonaws.com/inet/webux/login.html
+
+ 
+*** Test Cases ***
+TC_001 Browser Start and Close
+	Open Browser  ${URL}  ${Browser} 
+	Input Text  id=username  demo
+	Input Password  id=password  ust123
+	Click Button  xpath=//*[@id="login-window"]/form/div[1]/button
+	Close Browser
+	
+Add two numbers
+    Given I have Calculator open
+    When I add 2 and 40
+    Then result should be 42
+
+Add negative numbers
+    Given I have Calculator open
+    When I add 1 and -2
+    Then result should be -1
+
+*** Keywords ***
+I have ${program} open
+    Start Program    ${program}
+
+I add ${number 1} and ${number 2}
+    Input Number    ${number 1}
+    Push Button     +
+    Input Number    ${number 2}
+    Push Button     =
+
+Result should be ${expected}
+    ${result} =    Get Result
+    Should Be Equal    ${result}    ${expected}
