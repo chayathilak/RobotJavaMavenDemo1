@@ -6,15 +6,15 @@ Documentation
 
 ***Variables***
 ${Browser}  Chrome
-${URL}  http://abc/application/login.html
+${URL}  http://gajaba-1609168510.us-east-1.elb.amazonaws.com/inet/webux/login.html
 
  
 *** Test Cases ***
 TC_001 Browser Start and Close
 	Open Browser  ${URL}  ${Browser} 
 	Input Text  id=username  demo
-	Input Password  id=password  abc123
-	Click Button  xpath=//*[@id="login"]/div[9]/button
+	Input Password  id=password  ust123
+	Click Button  xpath=//*[@id="login-window"]/form/div[1]/button
 	Close Browser
 	
  

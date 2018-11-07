@@ -1755,3 +1755,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.sun:tools
 2018-11-06 16:17:03,536 [Worker-16: Launching javarobot (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U robotframework:run
 2018-11-06 16:26:04,004 [Worker-1: Launching javarobot (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Gihan\eclipse-test5\javarobot
 2018-11-06 16:26:04,004 [Worker-1: Launching javarobot (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -U robotframework:run
+2018-11-07 10:21:36,918 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
