@@ -1,0 +1,20 @@
+*** Settings ***
+Library  Selenium2Library
+Documentation
+...    Registration Test Case.
+
+
+***Variables***
+${Browser}  Chrome
+${URL}  http://abc/application/login.html
+
+ 
+*** Test Cases ***
+TC_001 Browser Start and Close
+	Open Browser  ${URL}  ${Browser} 
+	Input Text  id=username  demo
+	Input Password  id=password  abc123
+	Click Button  xpath=//*[@id="login"]/div[9]/button
+	Close Browser
+	
+ 
